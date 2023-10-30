@@ -1,0 +1,28 @@
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+}
+
+.taskContainer__item {
+  width: 85%;
+  padding: 0px 0px 0px 5px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 0.3em;
+}
+
+.taskContainer__btn {
+  background-color: rgb(119, 119, 239);
+  color: white;
+  padding: 3px;
+  border: none;
+  border-radius: 0.3em;
+  transition: transform 0.33s ease;
+}
+
+.taskContainer__btn:hover {
+  background-color: rgba(91, 91, 245, 0.789);
+  transform: scale(1.03);
+  box-shadow: 0.5px 0.5px 5px 2px #000000;
+}
